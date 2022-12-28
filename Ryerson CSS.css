@@ -1,0 +1,345 @@
+.imageContainer {
+  right: 0;
+  left: 0;
+  height: 600px;
+  border: 5px solid yellow;
+  min-width: 1600px;
+  position: relative;
+  background-image: url(https://www.ryerson.ca/content/dam/careers/jobs-slider-1.jpg);
+}
+.imageContainer p{
+  top: 50%;
+  position: relative;
+  font-size: 4em;
+  color:white;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px;
+  background-color: #004c9b;
+}
+.map iframe {
+  padding: 20px;
+  top: 40%;
+}
+.map {
+  border: 3px solid yellow;
+  background-color: #dfdfdf;
+  overflow: hidden;
+  position: absolute;
+  top: 670px;
+  right: 1030px;
+  left: 176px;
+  box-shadow: 0px 4px 4px #000;
+  min-width: 660px;
+}
+.map p {
+  position: absolute;
+  font-family: Arial;
+  text-align: center;
+  left: 338px;
+  top: 50px;
+  color: black;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.blueBox {
+  background-color: #004c9b;
+  overflow: hidden;
+  position: absolute;
+  top: 1390px;
+  left: 1px;
+  right: 1px;
+  height: 400px;
+  box-shadow: 0px 4px 4px #000;
+  border: 3px solid yellow;
+  min-width: 1600px;
+  
+}
+.blueBox p {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  
+  
+}
+.grayBox {
+  background-color: #dfdfdf;
+  overflow: hidden;
+text-align: center;
+  position: absolute;
+  min-width: 1400px;
+  top: 950px;
+  left: 177px;
+  right: 177px;
+  height: 400px;
+  box-shadow: 0px 4px 4px #000;
+  border: 3px solid yellow;
+}
+.grayBox p {
+    position: relative;
+  text-align: center;
+  color: black;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+}
+.grayBox img {
+  position: absolute;
+  
+  left: 17px;
+  top: 60px;
+  width: 500px;
+  height: auto;
+   box-shadow: 4px 4px 4px #000;
+  
+}
+.grayBox p1 {
+  position: relative;
+  left: 18%;
+  top: 11%;
+  font-family: Arial;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.picBox {
+  background-color: #003c7a;
+  overflow: hidden;
+
+  position: absolute;
+ 
+  top: 670px;
+  left: 177px;
+  right: 177px;
+  height: 244px;
+  min-width: 1400px;
+  box-shadow: 0px 4px 4px #000;
+  border: 3px solid yellow;
+}
+.picBox img {
+
+ position: absolute;
+  right: -150px;
+  top: -350px;
+  width: 1024px;
+  height: 750px;
+  
+}
+.progScroll {
+  position: absolute;
+  
+  top: 1300px;
+}
+.headerTwo a {
+  border-radius: 0%;
+  font-family: Arial;
+  background-color: #003c7a;
+  display: inline;
+  line-height: 6.9;
+  left: 150px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  margin-right: 19px;
+  padding: 10px;
+}
+.headerTwo a:hover {
+  background-color: #004c9b;
+}
+.headerTwo a:active {
+  background-color: yellow;
+  color: black;
+}
+.blueBox ul {
+  position: absolute;
+  top: 120px;
+  font-family: Arial;
+  color: white;
+  
+}
+.blueBox li {
+  margin: 10px 0;
+}
+.blueBox p1 {
+  top: 65px;
+  position: absolute;
+  color: white;
+  margin-right: 15px;
+  padding: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.blueBox iframe {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+.infoBox {
+   background-color: #dfdfdf;
+  overflow: hidden;
+  position: absolute;
+  
+  left: 177px;
+  right: 177px;
+  top: 1830px;
+  min-width: 1400px;
+  height: 400px;
+  box-shadow: 0px 4px 4px #000;
+  border: 3px solid yellow;
+}
+.infoBox p{
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+}
+.infoBox p1 {
+  position: absolute;
+  left: 33%;
+  top: 15%;
+  text-align: center;
+  color: black;
+   font-family: Arial;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 15px;
+}
+.infoBox p2 {
+  text-align: center;
+  color: black;
+   font-family: Arial;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 10px;
+}
+.infoBox li {
+  margin 10px 0;
+}
+.infoBox ul {
+  font-family: Arial;
+  color: black;
+  position: absolute;
+
+}
+.infoBox p2 {
+  position: absolute;
+  top: 10%;
+}
+.infoBox table {
+  position: absolute;
+  left: 38%;
+  top: 35%;
+}
+.infoBox th {
+  background-color:#003c7a;
+  padding: 10px;
+  color:white;
+  border: 2px solid black;
+  font-family: Arial;
+  
+}
+.infoBox td {
+  background-color: white;
+  font-family: Arial;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+.infoBox table {
+  top: 38%;
+  left: 35%;
+  position: absolute;
+  
+}
+.infoScroll {
+  position: absolute;
+  top: 400px;
+}
+.tuitionBox {
+     background-color: #dfdfdf;
+  overflow: hidden;
+  position: absolute;
+  
+  left: 177px;
+  right: 177px;
+  top: 2300px;
+  min-width: 1400px;
+  height: 300px;
+  box-shadow: 0px 4px 4px #000;
+  border: 3px solid yellow;
+}
+.tuitionBox table {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+.tuitionBox th {
+    background-color:#003c7a;
+  padding: 10px;
+  color:white;
+  border: 2px solid black;
+  font-family: Arial;
+}
+.tuitionBox td {
+    background-color: white;
+  font-family: Arial;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+.tuitionBox p {
+  font-family: Arial;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+.endBanner {
+     background-color: #004c9b;
+  overflow: hidden;
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  top: 2670px;
+  box-shadow:  8px 4px 4px 4px #000;
+  min-width: 1600px;
+  height: 150px;
+  
+}
+.endBanner p {
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+}
+.headerTwo buttonD {
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  margin-right: 15px;
+}
+.headerTwo buttonL {
+  padding: 10px;
+  background-color: #004c9b;
+  cursor: pointer;
+  font-family: Arial;
+  margin-right: 15px;
+}
+.endBanner a {
+   border-radius: 0%;
+  font-family: Arial;
+  background-color: #003c7a;
+  display: inline;
+  line-height: 3;
+  left: 150px;
+  outline: none;
+  color: white;
+  margin-right: 19px;
+  padding: 10px;
+}
